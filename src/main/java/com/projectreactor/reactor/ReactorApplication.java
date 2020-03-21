@@ -19,10 +19,10 @@ public class ReactorApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-//		Flux.just("test","test1","test2")
-//				.filter(s->s.length()>2)
-//				.map(s->s.concat("hello"))
-//				.subscribe(System.out::println);
+		Flux.just("test","test1","test2")
+				.filter(s->s.length()>2)
+				.map(s->s.concat("hello"))
+				.subscribe(System.out::println);
 
 
 
